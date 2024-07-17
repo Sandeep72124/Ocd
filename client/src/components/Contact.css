@@ -1,0 +1,37 @@
+/* Footer.css */
+
+.footer {
+  color: #fff; /* Changed text color to white */
+  padding: 20px 0;
+  background: linear-gradient(to right, #23D5AB, #c05a3b, #325346, #29151c, #7c583b, #54676e); /* Adjusted gradient colors */
+  background-size: 600% 100%; /* Adjusted background size */
+  animation: Gradient 15s ease infinite; /* Removed vendor prefixes */
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer a {
+  color: #fff; /* Changed link color to white */
+  text-decoration: none;
+  margin-right: 20px;
+  transition: color 0.3s ease; /* Added transition effect for smoother color change */
+}
+
+.footer a:hover {
+  color: #ffd6d6; /* Changed link color on hover */
+}
+/* Contact.css */
+
+.contact-info {
+  margin-bottom: 5px; /* Adjust margin-bottom as needed */
+}

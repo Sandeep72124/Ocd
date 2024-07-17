@@ -1,0 +1,53 @@
+.signup-form {
+  width: 700px;
+  margin: 0 auto;
+  padding: 90px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(-45deg, #EE7752, #bf3ce7, #a0a82e, #d523bd);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+
+/* The animation keyframes remain the same as in your original code */
+
+.signup-form h2 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.signup-form form {
+  /* Remove flexbox properties to stack elements vertically */
+}
+
+.signup-form label {
+  margin-bottom: 5px;
+}
+
+.signup-form input,
+.signup-form select {
+  display: block; /* Display elements as block-level elements */
+  width: 100%; /* Take full width of the container */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #832929;
+  border-radius: 9px;
+}
+
+.signup-form button {
+  display: block; /* Display the button as a block-level element */
+  margin-top: 10px; /* Add space between the button and the elements above it */
+  padding: 10px;
+  background-color: #0074d9;
+  color: #fcfcfc;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.signup-form button:hover {
+  background-color: #821b9c;
+}

@@ -1,0 +1,117 @@
+.psychologist-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+  }
+  
+  .psychologist-card {
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #3a1c1c;
+    border-radius: 5px;
+    width: 300px;
+   
+  }
+  
+  .psychologist-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .psychologist-card h2 {
+    margin: 10px 0;
+  }
+  
+  .psychologist-card p {
+    color: #221b1b;
+  }
+  .button{
+    background: linear-gradient(-45deg, #3d2188,#aeb126, #aa2db6,#d32f29, #23A6D5, #1bc59d);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+
+@-moz-keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+
+@keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+  .h1{
+
+    color: #1b2221;
+  }
+  .header{
+    background: linear-gradient(-45deg, #3d2188,#aeb126, #aa2db6,#d32f29, #23A6D5, #c51b79);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+
+@-moz-keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+
+@keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}

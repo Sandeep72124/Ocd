@@ -1,0 +1,40 @@
+/* Review.css */
+.review-heading {
+    color: #000000;
+    font-size: 44px;
+    text-align: center;
+    padding: 60px;
+}
+
+.review-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 80px;
+}
+
+.review-card {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #1c9797;
+    border-radius: 5px;
+    max-width: 400px;
+    flex: 0 0 calc(33.33% - 20px); /* Adjust the width as needed */
+}
+
+.review-name {
+    font-weight: bold;
+}
+
+.rating {
+    margin: 10px 0;
+}
+
+.star {
+    color: rgb(156, 26, 26);
+}
+
+.review-text {
+    margin-top: 20px;
+}

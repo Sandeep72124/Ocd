@@ -1,0 +1,89 @@
+/* App.css */
+.custom-navbar {
+    
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+  z-index: 100;
+  background: linear-gradient(-45deg, #c05a3b,#2cd38d, #d63170,#aed329, #23A6D5, #1bc59d);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+}
+@-webkit-keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+
+@-moz-keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+
+@keyframes Gradient {
+  0% {
+  background-position: 0% 50%
+  }
+50% {
+background-position: 100% 50%
+}
+100% {
+background-position: 0% 50%
+}
+}
+  .navbar-nav{
+    color:rgb(0, 0, 0);
+  }
+  /* Navbar.css */
+
+/* Style for the active (current) link */
+.home-link.active,
+.home-link:hover {
+  color: #9bbb28; /* Change the color to your desired color */
+}
+
+.about-link.active,
+.about-link:hover {
+  color: #f6ff77; /* Change the color to your desired color */
+}
+
+.services-link.active,
+.services-link:hover {
+  color: #99ff90; /* Change the color to your desired color */
+}
+.contact-link.active,
+.contact-link:hover {
+  color: #ffb9ff; /* Change the color to your desired color */
+}
+/* You can add styles for other links here */
+.chat-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #2196F3;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.chat-icon img {
+  width: 30px; /* Adjust the size as needed */
+}

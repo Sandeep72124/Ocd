@@ -1,0 +1,23 @@
+.appointment-slip {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.appointment-slip h2 {
+  margin-bottom: 10px; /* Reduce margin-bottom */
+  font-size: 24px;
+}
+
+.appointment-slip .info p {
+  margin: 5px 0; /* Reduce margin */
+}
+
+.appointment-slip .info strong {
+  font-weight: bold;
+}
+
+/* Additional styling as needed */

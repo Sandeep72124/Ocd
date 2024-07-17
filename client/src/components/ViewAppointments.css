@@ -1,0 +1,16 @@
+.appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .appointment-table th, .appointment-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .appointment-table th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
