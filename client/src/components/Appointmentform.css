@@ -8,6 +8,9 @@
   position: relative; /* Make the parent container a positioning context */
   min-height: 100vh; /* To center vertically in the viewport */
 }
+#t{
+  font-size: larger;
+}
 
 #appointment .section-title {
   font-size: 24px;
